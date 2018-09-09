@@ -1,5 +1,5 @@
 # vi .gitignore
 
 # xcuserdata
-/cpp_study/cpp_study.xcodeproj/project.xcworkspace/*
-/cpp_study/cpp_study.xcodeproj/xcuserdata/*
+/algorithm_study/algorithm_study.xcodeproj/project.xcworkspace/*
+/algorithm_study/algorithm_study.xcodeproj/xcuserdata/*
