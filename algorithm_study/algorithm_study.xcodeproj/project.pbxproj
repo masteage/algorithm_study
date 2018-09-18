@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C11118EB2145519800FCC9E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11118EA2145519800FCC9E7 /* main.cpp */; };
+		C122F73B214FE8B8002D772C /* step_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F739214FE8B8002D772C /* step_01.cpp */; };
+		C122F73F214FEB4C002D772C /* step_07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F73D214FEB4C002D772C /* step_07.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		C11118E72145519800FCC9E7 /* algorithm_study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_study; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11118EA2145519800FCC9E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C122F739214FE8B8002D772C /* step_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_01.cpp; sourceTree = "<group>"; };
+		C122F73A214FE8B8002D772C /* step_01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_01.hpp; sourceTree = "<group>"; };
+		C122F73C214FE91A002D772C /* algorithm_study_pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algorithm_study_pch.pch; sourceTree = "<group>"; };
+		C122F73D214FEB4C002D772C /* step_07.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_07.cpp; sourceTree = "<group>"; };
+		C122F73E214FEB4C002D772C /* step_07.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_07.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				C11118EA2145519800FCC9E7 /* main.cpp */,
+				C122F73C214FE91A002D772C /* algorithm_study_pch.pch */,
+				C122F739214FE8B8002D772C /* step_01.cpp */,
+				C122F73A214FE8B8002D772C /* step_01.hpp */,
+				C122F73D214FEB4C002D772C /* step_07.cpp */,
+				C122F73E214FEB4C002D772C /* step_07.hpp */,
 			);
 			path = algorithm_study;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C122F73B214FE8B8002D772C /* step_01.cpp in Sources */,
+				C122F73F214FEB4C002D772C /* step_07.cpp in Sources */,
 				C11118EB2145519800FCC9E7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = algorithm_study/algorithm_study_pch.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = algorithm_study/algorithm_study_pch.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

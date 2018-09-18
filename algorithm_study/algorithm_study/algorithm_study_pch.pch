@@ -1,0 +1,19 @@
+//
+//  algorithm_study_pch.pch
+//  algorithm_study
+//
+//  Created by taeseongsong on 2018. 9. 17..
+//  Copyright © 2018년 taeseongsong. All rights reserved.
+//
+
+#ifndef algorithm_study_pch_h
+#define algorithm_study_pch_h
+
+#include <string>
+#include <algorithm>
+#include <iostream>
+#include <stdio.h>
+#include <vector>
+using namespace std;
+
+#endif /* algorithm_study_pch_h */
