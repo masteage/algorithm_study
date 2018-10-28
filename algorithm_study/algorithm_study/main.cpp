@@ -10,12 +10,14 @@
 #include "step_07.hpp"
 #include "step_08.hpp"
 #include "step_09.hpp"
+#include "sort.hpp"
 
 int main(){
 //	step_01();
 //	step_07();
 //	step_08();
-	step_09();
+//	step_09();
+	sort();
 	return 0;
 }
 

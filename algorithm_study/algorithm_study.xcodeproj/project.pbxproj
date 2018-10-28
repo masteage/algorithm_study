@@ -11,6 +11,7 @@
 		C122F73B214FE8B8002D772C /* step_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F739214FE8B8002D772C /* step_01.cpp */; };
 		C122F73F214FEB4C002D772C /* step_07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F73D214FEB4C002D772C /* step_07.cpp */; };
 		C1398295216CF92C00FA3589 /* step_09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1398293216CF92C00FA3589 /* step_09.cpp */; };
+		C16DB2F9217CE2CE000E0430 /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C16DB2F7217CE2CE000E0430 /* sort.cpp */; };
 		C1F4E55521612C3B00735AD6 /* step_08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F4E55321612C3B00735AD6 /* step_08.cpp */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		C122F73E214FEB4C002D772C /* step_07.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_07.hpp; sourceTree = "<group>"; };
 		C1398293216CF92C00FA3589 /* step_09.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_09.cpp; sourceTree = "<group>"; };
 		C1398294216CF92C00FA3589 /* step_09.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_09.hpp; sourceTree = "<group>"; };
+		C16DB2F7217CE2CE000E0430 /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		C16DB2F8217CE2CE000E0430 /* sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sort.hpp; sourceTree = "<group>"; };
 		C1F4E55321612C3B00735AD6 /* step_08.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_08.cpp; sourceTree = "<group>"; };
 		C1F4E55421612C3B00735AD6 /* step_08.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_08.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,8 @@
 			children = (
 				C11118EA2145519800FCC9E7 /* main.cpp */,
 				C122F73C214FE91A002D772C /* algorithm_study_pch.pch */,
+				C16DB2F7217CE2CE000E0430 /* sort.cpp */,
+				C16DB2F8217CE2CE000E0430 /* sort.hpp */,
 				C122F739214FE8B8002D772C /* step_01.cpp */,
 				C122F73A214FE8B8002D772C /* step_01.hpp */,
 				C122F73D214FEB4C002D772C /* step_07.cpp */,
@@ -145,6 +150,7 @@
 				C1398295216CF92C00FA3589 /* step_09.cpp in Sources */,
 				C11118EB2145519800FCC9E7 /* main.cpp in Sources */,
 				C1F4E55521612C3B00735AD6 /* step_08.cpp in Sources */,
+				C16DB2F9217CE2CE000E0430 /* sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
