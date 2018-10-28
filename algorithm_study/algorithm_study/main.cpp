@@ -10,6 +10,7 @@
 #include "step_07.hpp"
 #include "step_08.hpp"
 #include "step_09.hpp"
+#include "step_10.hpp"
 #include "sort.hpp"
 
 int main(){
@@ -17,7 +18,8 @@ int main(){
 //	step_07();
 //	step_08();
 //	step_09();
-	sort();
+//	sort();
+	step_10();
 	return 0;
 }
 
