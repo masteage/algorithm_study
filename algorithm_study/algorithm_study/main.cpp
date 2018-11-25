@@ -12,6 +12,7 @@
 #include "step_09.hpp"
 #include "step_10.hpp"
 #include "step_11.hpp"
+#include "step_12.hpp"
 #include "sort.hpp"
 
 int main(){
@@ -21,7 +22,8 @@ int main(){
 //	step_09();
 //	sort();
 //	step_10();
-	step_11();
+//	step_11();
+	step_12();
 	return 0;
 }
 

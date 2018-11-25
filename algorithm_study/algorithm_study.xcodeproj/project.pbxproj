@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C11118EB2145519800FCC9E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11118EA2145519800FCC9E7 /* main.cpp */; };
+		C113817021AAE1FB0034EA02 /* step_12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C113816E21AAE1FB0034EA02 /* step_12.cpp */; };
 		C122F73B214FE8B8002D772C /* step_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F739214FE8B8002D772C /* step_01.cpp */; };
 		C122F73F214FEB4C002D772C /* step_07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C122F73D214FEB4C002D772C /* step_07.cpp */; };
 		C1398295216CF92C00FA3589 /* step_09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1398293216CF92C00FA3589 /* step_09.cpp */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		C11118E72145519800FCC9E7 /* algorithm_study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_study; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11118EA2145519800FCC9E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C113816E21AAE1FB0034EA02 /* step_12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_12.cpp; sourceTree = "<group>"; };
+		C113816F21AAE1FB0034EA02 /* step_12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_12.hpp; sourceTree = "<group>"; };
 		C122F739214FE8B8002D772C /* step_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_01.cpp; sourceTree = "<group>"; };
 		C122F73A214FE8B8002D772C /* step_01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_01.hpp; sourceTree = "<group>"; };
 		C122F73C214FE91A002D772C /* algorithm_study_pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algorithm_study_pch.pch; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				C1E010B22185C8630095567F /* step_10.hpp */,
 				C15D5225218F69C200F5312E /* step_11.cpp */,
 				C15D5226218F69C200F5312E /* step_11.hpp */,
+				C113816E21AAE1FB0034EA02 /* step_12.cpp */,
+				C113816F21AAE1FB0034EA02 /* step_12.hpp */,
 			);
 			path = algorithm_study;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				C15D5227218F69C200F5312E /* step_11.cpp in Sources */,
 				C1E010B32185C8630095567F /* step_10.cpp in Sources */,
 				C122F73F214FEB4C002D772C /* step_07.cpp in Sources */,
+				C113817021AAE1FB0034EA02 /* step_12.cpp in Sources */,
 				C1398295216CF92C00FA3589 /* step_09.cpp in Sources */,
 				C11118EB2145519800FCC9E7 /* main.cpp in Sources */,
 				C1F4E55521612C3B00735AD6 /* step_08.cpp in Sources */,
