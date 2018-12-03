@@ -14,6 +14,7 @@
 		C1398295216CF92C00FA3589 /* step_09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1398293216CF92C00FA3589 /* step_09.cpp */; };
 		C15D5227218F69C200F5312E /* step_11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C15D5225218F69C200F5312E /* step_11.cpp */; };
 		C16DB2F9217CE2CE000E0430 /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C16DB2F7217CE2CE000E0430 /* sort.cpp */; };
+		C18030AD21B58FBF008DB38F /* step_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18030AB21B58FBF008DB38F /* step_13.cpp */; };
 		C1E010B32185C8630095567F /* step_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1E010B12185C8630095567F /* step_10.cpp */; };
 		C1F4E55521612C3B00735AD6 /* step_08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F4E55321612C3B00735AD6 /* step_08.cpp */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,8 @@
 		C15D5226218F69C200F5312E /* step_11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_11.hpp; sourceTree = "<group>"; };
 		C16DB2F7217CE2CE000E0430 /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
 		C16DB2F8217CE2CE000E0430 /* sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sort.hpp; sourceTree = "<group>"; };
+		C18030AB21B58FBF008DB38F /* step_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_13.cpp; sourceTree = "<group>"; };
+		C18030AC21B58FBF008DB38F /* step_13.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_13.hpp; sourceTree = "<group>"; };
 		C1E010B12185C8630095567F /* step_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_10.cpp; sourceTree = "<group>"; };
 		C1E010B22185C8630095567F /* step_10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = step_10.hpp; sourceTree = "<group>"; };
 		C1F4E55321612C3B00735AD6 /* step_08.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = step_08.cpp; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				C15D5226218F69C200F5312E /* step_11.hpp */,
 				C113816E21AAE1FB0034EA02 /* step_12.cpp */,
 				C113816F21AAE1FB0034EA02 /* step_12.hpp */,
+				C18030AB21B58FBF008DB38F /* step_13.cpp */,
+				C18030AC21B58FBF008DB38F /* step_13.hpp */,
 			);
 			path = algorithm_study;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C122F73B214FE8B8002D772C /* step_01.cpp in Sources */,
+				C18030AD21B58FBF008DB38F /* step_13.cpp in Sources */,
 				C15D5227218F69C200F5312E /* step_11.cpp in Sources */,
 				C1E010B32185C8630095567F /* step_10.cpp in Sources */,
 				C122F73F214FEB4C002D772C /* step_07.cpp in Sources */,
