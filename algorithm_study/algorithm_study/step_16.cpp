@@ -46,12 +46,9 @@ int step_16_01_dynamic_programming(){
 	nArrMemo[0] = 1;
 	nArrMemo[1] = 1;
 	int t = 0,n = 0;
-//	cin >> t;
-	t = 1;
-	n = 3;
-	
+	cin >> t;
 	for(;0 < t ; t--){
-//		cin >> n;
+		cin >> n;
 		fibonacci_dynamic_programming(n);
 		if(n == 0) cout << "1 0" << endl;
 		else if(n == 0) cout << "0 1" << endl;
