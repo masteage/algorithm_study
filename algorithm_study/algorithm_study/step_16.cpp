@@ -23,7 +23,7 @@ int fibonacci_recursion(int n) {
 }
 
 // timeout
-void step_16_01_recursion(){
+int step_16_01_recursion(){
 	nZeroCount = 0;nOneCount = 0;
 	int t = 0,n = 0;
 	cin >> t;
@@ -31,6 +31,7 @@ void step_16_01_recursion(){
 		cin >> n;
 		fibonacci_recursion(n);
 	}
+	return 0;
 }
 
 int nArrMemo[41] = {0,};
@@ -41,7 +42,7 @@ int fibonacci_dynamic_programming(int n) {
 	return nArrMemo[n];
 }
 
-void step_16_01_dynamic_programming(){
+int step_16_01_dynamic_programming(){
 	nArrMemo[0] = 1;
 	nArrMemo[1] = 1;
 	int t = 0,n = 0;
@@ -56,11 +57,32 @@ void step_16_01_dynamic_programming(){
 		else if(n == 0) cout << "0 1" << endl;
 		else cout << nArrMemo[n-2] << " " << nArrMemo[n-1] << endl;
 	}
+	return 0;
+}
+
+//https://www.acmicpc.net/problem/1912
+int step_16_13(){
+	int nArrMemoSum[100000-1] = {0,};
+	int nMaxSum = ~(~0U >> 1);//INT_MIN;
+	int n = 0;
+	cin >> n;
+	cin >> nMaxSum;
+	nMaxSum = nArrMemoSum[0];
+	if(n == 0){cout << nMaxSum << endl;return 0;}
+	for(int i = 1;i < n; i++){
+		cin >> nArrMemoSum[i];
+		int nSum = nArrMemoSum[i] + nArrMemoSum[i-1];
+		if(nArrMemoSum[i] < nSum) nArrMemoSum[i] = nSum;
+		if(nMaxSum < nArrMemoSum[i]) nMaxSum = nArrMemoSum[i];
+	}
+	cout << nMaxSum << endl;
+	return 0;
 }
 
 //https://www.acmicpc.net/step/16
 void step_16(){
 //	step_16_01_recursion();
-	step_16_01_dynamic_programming();
+//	step_16_01_dynamic_programming();
+	step_16_13();
 	cout<<""<<endl;
 }
