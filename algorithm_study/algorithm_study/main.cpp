@@ -14,6 +14,7 @@
 #include "step_11.hpp"
 #include "step_12.hpp"
 #include "step_13.hpp"
+#include "step_16.hpp"
 #include "sort.hpp"
 
 int main(){
@@ -25,7 +26,8 @@ int main(){
 //	step_10();
 //	step_11();
 //	step_12();
-	step_13();
+//	step_13();
+	step_16();
 	return 0;
 }
 
