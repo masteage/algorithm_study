@@ -49,9 +49,32 @@ void step_13_02(){
 	cout<< nMoveCountAll <<endl;
 }
 
+//https://www.acmicpc.net/problem/5430
+#include <vector>
+void step_13_03(){
+	int nCount = 0;
+//	cin >> nCount;
+	nCount = 1;
+	vector<char> p;
+	for( ; 0 < nCount ; nCount--){
+		string strTmp;
+//		cin >> strTmp;
+//		cout.flush();
+		strTmp = "RDD";
+//		p
+		
+//		strTmp
+		
+	}
+	
+//	string str;
+//	cin >> count;
+//	cout.flush();
+}
 
 //https://www.acmicpc.net/step/13
 void step_13(){
 //	step_13_02();
+	step_13_03();
 	cout<<""<<endl;
 }
